@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- Feedback: bisa dicoba lebih banyak variasi HTML, seperti penggunaan list, heading 2, heading 3, dll. -->
+
+<html>
+    <head>
+    <style>
+    body {
+  background-color: rgb(38, 195, 166);
+}
+img { 
+    margin: 0 auto;
+    display: block;
+}
+h1,h2,h3{
+  color: white;
+  text-align: center; 
+  font-family: verdana;
+  font-size: 40px;
+}
+div.hobby {
+    text-align: center; 
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+}
+
+p{ color: white;
+text-align: center;
+font-family:  "Times New Roman", Times, serif;
+}
+a{color: white;
+text-align: center;}
+.Box{ 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    background-color: #add6ff;
+}
+.favorite{
+    display: flex;
+  justify-content: center;
+  background-color: rgb(59, 108, 158);
+  gap: 50px;
+    
+}
+.thing{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+  background-color: rgb(212, 113, 166);
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  div.gallery-item {
+    width: calc(50% - 20px);
+  }
+}
+</style>
+        <title> Tugas 1 About me Micheal</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <h1> Profile</h1>
+        <hr> 
+        <h2 style="background-color:Tomato;"> Nama</h2> <br> <h3 style="background-color:rgb(150, 213, 24); font-size: 60px;">Micheal</h3>
+        <img src="Profile.jpeg" alt="Profile.com"  width="400" height="379">/>
+        <p style="background-color:rgb(97, 168, 255); font-size: 2em" > seseorang yang kurang pengalaman namun mau berusaha<br>untuk mendapatkan experience baru 
+            maupun itu akan berguna atau tidak di masa melampau.<br> mau berteman dengan siapapun, dan tidak memilih teman,
+        jika diajak kerja kelompok<br> saya akan pasti mau menolong maupun tugasnya susah atau tidak. </p>
+        <hr>
+        <h2 style="background-color:Tomato;"> Hobi</h2>
+        <ul class="a">
+  <br> <div class="hobby">Bermain gadget<br>Olhraga<br> Menggambar</div>
+        <hr>
+        <h2 class="Box">My Favorite Things</h2>
+      <div class="gallery">
+
+<div class="gallery-item">
+  <a target="_blank" href="Madoka.jpg">
+    <img src="Madoka.jpg" alt="Puella Madoka Magica" width="600" height="400">
+    </a>
+    <div class="desc">Puella Madoka Magica</div>
+    </div>
+  
+    <div class="gallery-item">
+    <a target="_blank" href="Indomie.jpg">
+    <img src="Indomie.jpg" alt="Indomie" width="600" height="400">
+    </a>
+    <div class="desc">Indomie</div>
+    </div>
+
+     <div class="gallery-item">
+    <a target="_blank" href="Gavv.jpg">
+    <img src="Gavv.jpg" alt="Gavv" width="600" height="400">
+    </a>
+    <div class="desc">Gavv</div>
+    </div>
+    
+        </div>
+
+       <hr>
+        
+     <h2> Link Sosial Media</h2>
+        <a href="https://www.instagram.com/micheal_lesalt?utm_source=qr&igsh=Y3Z0andmYnJrZmx4"><p style="background-color:Tomato;">1.Instagram</p></a><br>
+        <a href="https://www.tiktok.com/@pumkings21?_r=1&_d=ec25fdk0fg11dm&sec_uid=MS4wLjABAAAAivYKqyL4XT2SwcXf3eE3nbSSUDlNp5WcePCLqIQSunLw9xVQC_tolRuFw3aiLhSV&share_author_id=7203292777633858562&sharer_language=id&source=h5_t&u_code=e6g15780hi7geb&timestamp=1769745851&user_id=7203292777633858562&sec_user_id=MS4wLjABAAAAivYKqyL4XT2SwcXf3eE3nbSSUDlNp5WcePCLqIQSunLw9xVQC_tolRuFw3aiLhSV&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7596515354839959313&share_link_id=c7039020-f9ed-4c03-9f7e-f812b4de252e&share_app_id=1180&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1"><p style="background-color:Tomato;">2.Tiktok</p></a>
+
+
+    </body>
+
+</html>
